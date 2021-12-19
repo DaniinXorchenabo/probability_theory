@@ -2,6 +2,10 @@
 
 ## Графики
 
+Для отрисовки графиков смотри файл `./draw_graph/scripts/graph.js`
+
+Для визуализации отрисовки запустить `/draw_graph/main.html`
+
 ### Гистограмма 
 ![Скриншот 19-12-2021 134744](https://user-images.githubusercontent.com/45897837/146682628-b9e18607-db66-4e35-a8b0-16e3c587dce2.jpg)
 

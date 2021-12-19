@@ -61,7 +61,7 @@ def print_min_max(arr, c=9):
     drawing_func = {round(key + setup * _ - 0.01 * _, 2): i for [i, [key, val]] in zip(_func, col) for _ in range(2)}
     # print(drawing_func)
 
-    return div_arr, col
+    return div_arr, col, _func
 
 
 def find_stat_agv(count_arr: list[list[int, int]], arr: list[int]):
@@ -175,8 +175,11 @@ liner_arr = [j for i in arr for j in i]
 count_arr: list[list[int, int]] = sorted(Counter(liner_arr).items(), key=lambda i: i[0])
 
 print_as_table(count_arr)
-div_arr, min_max_arr = print_min_max(count_arr)
+div_arr, min_max_arr, _func = print_min_max(count_arr)
 x = find_stat_agv(count_arr, liner_arr)
 Dv = find_stat_dispersion(count_arr, liner_arr)
 pirson_kriteriy(min_max_arr, div_arr, x, Dv, liner_arr)
 raspr_metrics(Dv, x)
+
+print('\n\n', "-"*30, "\nВставить в _d1 (/draw_graph/scripts/graph.js) для отрисовки графа\n", div_arr)
+print('Вставить в _d2 (/draw_graph/scripts/graph.js) для отрисовки графиков\n', _func)
