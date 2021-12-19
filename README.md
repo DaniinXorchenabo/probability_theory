@@ -18,3 +18,9 @@
 ![Скриншот 19-12-2021 191814](https://user-images.githubusercontent.com/45897837/146682716-bb549a6a-b7d5-4e97-bd0b-1359673d4358.jpg)
 
 ![Скриншот 19-12-2021 191836](https://user-images.githubusercontent.com/45897837/146682724-53e5bd08-bb1b-4414-a77d-7c76f94f1697.jpg)
+
+## Отчёт
+
+[домашняя контрольная.docx](https://github.com/DaniinXorchenabo/probability_theory/files/7741162/default.docx)
+
+
